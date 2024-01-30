@@ -46,8 +46,8 @@ Este proyecto es un chatbot desarrollado con [Html, Css y JavaScript] diseñado 
 
 
 ## Enlaces
-- [Demo del Chatbot](https://reloj-digital-gv.netlify.app/)
-- [Repositorio del Proyecto](https://github.com/Giancarlos1024/RelojDigital)
+- [Demo del Chatbot](https://chatbot-sophia-gv.netlify.app/)
+- [Repositorio del Proyecto](https://github.com/Giancarlos1024/Chatbot)
 
 ## Contacto
 - Si tienes preguntas o sugerencias, no dudes en contactarme en
