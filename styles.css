@@ -1,0 +1,97 @@
+#chatContainer {
+    width: 400px; /* Modifica el ancho según tus preferencias */
+    height: 500px; /* Modifica la altura según tus preferencias */
+    margin: 50px auto;
+    border: 1px solid #ebe6e0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Ajuste para organizar elementos verticalmente */
+    background-color: #f3f0f0;
+    background: url('img/fondo.jpg');
+    box-shadow: 0px 0px 10px rgb(104, 102, 102);
+}
+
+body{
+    background-image: url('img/fondoglobal.jpg');
+
+}
+#chatHeader {
+    background-color: #128C7E; /* Color de WhatsApp */
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#chatHeader img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#chatBody {
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.user {
+    background-color: #dcf8c6; /* Color de fondo para mensajes de usuario en WhatsApp */
+}
+
+.bot {
+    background-color: #fff; /* Color de fondo para mensajes de chatbot en WhatsApp */
+}
+
+#userInputContainer {
+    padding: 10px;
+    display: flex;
+    margin-top: auto; /* Empuja el cuadro de entrada hacia la parte inferior */
+    background-color: #fff; /* Color de fondo del cuadro de entrada en WhatsApp */
+    border-top: 1px solid #ece5dd; /* Línea divisoria superior */
+}
+
+#userInput {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none; /* Elimina el contorno en foco */
+}
+
+button {
+    padding: 8px 10px;
+    margin-left: 10px;
+    background-color: #128C7E; /* Color del botón en WhatsApp */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+button:hover{
+    font-weight: bold;
+    background-color: rgb(10, 10, 10);
+}
+.avatar {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px; /* Ajusta el margen según tus preferencias */
+}
+span{
+    color: greenyellow;
+    font-family: 'Karantina';
+    font-size: 25px;
+}
